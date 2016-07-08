@@ -10,8 +10,21 @@ $(document).ready(function() {
     */
     var continued = true;
 
-
-
+    //Partie touche du clavier
+    $(document).keydown(function (e) {
+        if (continued) {
+            if (e.which == 39) {
+                vjX = parseInt($('#v1').css('left'));
+                if (vjX < 700)
+                    $('#v1').css('left', vjX + 30);
+            }
+            if (e.which == 37) {
+                vjX = parseInt($('#v1').css('left'));
+                if (vjX > 70)
+                    $('#v1').css('left', vjX - 30);
+            }
+        }
+    });
     /*
     Cette méthode est pour si on a 1 points !
     Hors, il faut le faire sur 2 points pour les imgs
