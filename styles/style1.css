@@ -1,0 +1,100 @@
+body{
+    background-color: #3c3c3c;
+    /*width: 1041px;*/
+    /*height: 700px;*/
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.erplan {
+    /*
+    max-height: 1041px;
+    max-width: 700px;
+    */
+    background-color:red;
+  }
+
+.tab1 {
+    background: transparent  url("../imgs/im1.jpg") no-repeat center;
+    /*
+    max-height: 1041px;
+    max-width: 700px;
+    min-height: 250px;
+    min-width: 250px;
+    */
+    height: 600px;
+    width: 600px;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#v1 {
+    position: absolute;
+    top: 28%;
+    left: 47%;
+}
+/*
+#jeu{
+    width: 400px;
+    width:100%;
+    max-width: 400px;
+    max-height: 400px;
+    height: 400px;
+    border: 2px black solid;
+    overflow: hidden;
+    position: relative;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.fond{
+    margin-bottom:-5px;
+    z-index: 10;
+    //margin-left:-15px;
+    position: relative;
+}
+
+#vj{
+    z-index: 100;
+    position: absolute;
+    top: 10px;
+    left: 48px;
+}
+
+#vr{
+    z-index: 80;
+    position: absolute;
+    top: -200px;
+    left: 0px;
+}
+
+#voiture_simple {
+    margin-top:60px;
+}
+
+.fond1{
+    margin-bottom:-5px;
+    z-index: 10;
+    position: relative;
+}
+
+#score {
+    background: url("../imgs/route1.png") no-repeat center;
+    padding-top: 195px;
+    padding-bottom: 100px;
+    color: whitesmoke;
+    font-size: 20px;
+    font-style: oblique;
+}
+#score p {
+    background-color: #3e8f3e;
+    border: 10px solid #3e8f3e;
+    border-radius: 2px;
+    width:300px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+*/
